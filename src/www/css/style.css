@@ -1,12 +1,12 @@
 body{
     background-color: #3DCED9;
+    font-size: x-large;
 }
 
 nav{
     background-color: #3D7CD9;
     height: 68px;
     border: 4px solid #455FF8;
-    padding-left: 430px;
 }
 
 nav li{
@@ -21,18 +21,39 @@ nav li{
     cursor: pointer;
 }
 
-div#divAnadir{
+li img{
+    float: left;
+    width: 55px;
+}
+
+div#divAnadir1{
     width: 400px;
     height: 250px;
     margin: 0 auto;
+    border-radius: 7px;
     border: 3px solid #455FF8;
-    padding: 10px;
+    padding: 20px;
+}
+
+#left{
+    float: left;
+    background-color: #50BCF0;
+    border-radius: 4px;
+    border: 2px solid #3D7CD9;
+}
+
+#right{
+    float: right;
+    background-color:#50BCF0;
+    border-radius: 4px;
+    border: 2px solid #3D7CD9;
 }
 
 table{
     border-radius: 4px;
     border: 2px solid black;
     margin: 0 auto;
+    height: 200px;
     text-align: center;
     border-collapse: collapse;
     background-color: #50BCF0;
@@ -43,7 +64,25 @@ tr, td{
 }
 
 table tr#cabecera{
-    height: 50px;
+    height: 55px;
     font-weight: bold;
-    background-color:yellow;
+    background-color:#FAAD41;
+}
+
+li.subrayado{
+    text-decoration: underline;
+}
+
+tr#medio{
+    background-color: #455FF8;
+}
+
+
+button{
+    cursor: cell;
+}
+
+/*PARA LAS VISTAS*/
+#divInicio, #divAnadir{
+    display: none;
 }

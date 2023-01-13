@@ -1,5 +1,6 @@
-<html>
+<html lang="es">
     <head>
+	    <meta charset=utf-8 />
         <title>DAWLOL inicio</title>
         <meta charset=utf-8/>
 	    <meta name=viewport content="width=device-width, initial-scale=1"/>
@@ -7,20 +8,23 @@
     </head>
     <body>
         <nav>
-            <ul>
-                <li>Listado de libros</li>
-                <li>Añadir nuevo libro</li>
+            <ul alt="viñeta menu">
+                <li><img src="../logo/libro_logo.png" alt="logo"></li>
+                <li lang="es"><a href="listado.html">Listado de libros</a></li>
+                <li class="subrayado" lang="es">Añadir nuevo libro</li>
+                <li><img src="../../src/www/assets/waiaa.png"></li>
             </ul>
         </nav>
         
-       <div id="divInicio">Este div es de la pantalla de inicio</div> 
-       <div id="divAnadir">
-            <form>
-                <label>Nombre del libro  <input type="text"></label></br>
-                <label>Ejemplar  <input type="number"></label></br>
-                <label>Fecha de publicacion <input type="date"></label><br>
-                <label>Descripción  <br><input type="textarea"></label></br>
+       <div id="divInicio" alt="Div pricipal" lang="es">Este div es de la pantalla de inicio</div> 
+       <div id="divAnadir1" alt="Contiene el formulario" lang="es">
+            <form alt="formulario para añadir libros">
+                <label lang="es">Nombre del libro  <input type="text"></label></br><br>
+                <label lang="es">Ejemplar  <input type="number"></label></br><br>
+                <label lang="es">Fecha de publicacion <input type="date"></label><br><br><!--Mejorar el espacio de la descripción-->
+                <label lang="es">Descripción  <br><input type="textarea"></label></br><br>
             </form>
+            <button id="left" alt="Boton" lang="es">Aceptar</button> <button id="right" alt="Boton" lang="es">Cancelar</button>
        </div>
     </body>
     <script type="module" src="js/controlador/controlador.js"></script>

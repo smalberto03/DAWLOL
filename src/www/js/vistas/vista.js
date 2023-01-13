@@ -1,15 +1,21 @@
-
-export class Libro{
-
-    constructor(nombre, ejemplar, fechap, descripcion, premiado){
-        this.nombre = nombre
-        this.ejemplar = ejemplar
-        this.fechap = fechap
-        this.descripcion = descripcion
-        this.premiado = premiado
-    }
-
-    habla(texto){
-        console.log(texto)
-    }
+/**
+	Implementa una vista.
+**/
+export class Vista{
+	/**
+		Constructor de la clase
+	**/
+	constructor(div){
+		this.div = div
+	}
+	/**
+		Muestra u oculta el div principal de la vista.
+		@param ver {Boolean} True muestra la vista y false la oculta.
+	**/
+	mostrar(ver){
+		if (ver)
+			this.div.style.display = 'block'
+		else
+			this.div.style.display = 'none'
+	}
 }
