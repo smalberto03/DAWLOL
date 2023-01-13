@@ -28,7 +28,7 @@ li img{
 
 div#divAnadir1{
     width: 400px;
-    height: 250px;
+    height: 290px;
     margin: 0 auto;
     border-radius: 7px;
     border: 3px solid #455FF8;
@@ -57,6 +57,7 @@ table{
     text-align: center;
     border-collapse: collapse;
     background-color: #50BCF0;
+    font-size: x-large;
 }
 
 tr, td{
