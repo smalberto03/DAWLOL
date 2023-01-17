@@ -38,6 +38,28 @@ class Controlador{
 		this.vistaJuego = new VistaJuego(this.divJuego, this)
 
 		this.vistaInicio.mostrar(true)
+
+
+
+		const dbName = 'libros'
+
+		let openRequest = indexedDB.open(dbName, 1)
+
+		if(openRequest.onsuccess)
+		{
+			console.log('Todo ha ido bien')
+		}
+
+		if(openRequest.onerror)
+		{
+			console.log('Error: '+openRequest.onerror)
+		}
+
+		openRequest.onupgradeneeded = (event) =>{
+			openRequest.createObjectStore('libro', {KeyPath: 'id'})
+			openRequest.createObjectStore('libro', {KeyPath: 'nombre'})
+		}
+
 	}
 	/**
 	 * Oculta todas las vistas.
