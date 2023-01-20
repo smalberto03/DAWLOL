@@ -1,0 +1,508 @@
+{
+  "id": "7b52ddae-07a2-4592-bd4f-f4de8280d633",
+  "version": "2.0",
+  "name": "test_2",
+  "url": "https://smalberto03.github.io",
+  "tests": [{
+    "id": "7d4b25d3-d38d-4b70-9204-ed05800b0150",
+    "name": "test_sprint2",
+    "commands": [{
+      "id": "e294b9bd-d4c8-435f-9848-3b04bb11d3dd",
+      "comment": "",
+      "command": "open",
+      "target": "/DAWLOL/src/www/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb156532-a102-40dd-a5cc-0ef2123a543e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1510x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e6b6f04-92b4-4d1a-9fcb-25ac1c6eda76",
+      "comment": "",
+      "command": "click",
+      "target": "id=lianadir",
+      "targets": [
+        ["id=lianadir", "id"],
+        ["css=#lianadir", "css:finder"],
+        ["xpath=//li[@id='lianadir']", "xpath:attributes"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Añadir nuevo libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "297986db-e9aa-4e53-8352-a9275148b22f",
+      "comment": "",
+      "command": "click",
+      "target": "id=liLista",
+      "targets": [
+        ["id=liLista", "id"],
+        ["css=#liLista", "css:finder"],
+        ["xpath=//li[@id='liLista']", "xpath:attributes"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Listado de libros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a34b1c6d-f85c-44cf-914f-7018c56d3614",
+      "comment": "",
+      "command": "click",
+      "target": "id=lianadir",
+      "targets": [
+        ["id=lianadir", "id"],
+        ["css=#lianadir", "css:finder"],
+        ["xpath=//li[@id='lianadir']", "xpath:attributes"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Añadir nuevo libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed0667b4-1f62-4381-b899-e97b26f78bf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=liLista",
+      "targets": [
+        ["id=liLista", "id"],
+        ["css=#liLista", "css:finder"],
+        ["xpath=//li[@id='liLista']", "xpath:attributes"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Listado de libros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6c089b-35a8-4341-84f9-64570a7a9c34",
+      "comment": "",
+      "command": "click",
+      "target": "id=lianadir",
+      "targets": [
+        ["id=lianadir", "id"],
+        ["css=#lianadir", "css:finder"],
+        ["xpath=//li[@id='lianadir']", "xpath:attributes"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Añadir nuevo libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba82f72-3eb4-4767-8ff3-76b29e342ca9",
+      "comment": "",
+      "command": "click",
+      "target": "id=liLista",
+      "targets": [
+        ["id=liLista", "id"],
+        ["css=#liLista", "css:finder"],
+        ["xpath=//li[@id='liLista']", "xpath:attributes"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Listado de libros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d6e45e-6366-4643-9de5-313db8f5bd48",
+      "comment": "",
+      "command": "click",
+      "target": "id=lianadir",
+      "targets": [
+        ["id=lianadir", "id"],
+        ["css=#lianadir", "css:finder"],
+        ["xpath=//li[@id='lianadir']", "xpath:attributes"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Añadir nuevo libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f505c47-bd4e-4677-83fc-28bf5048aa30",
+      "comment": "",
+      "command": "click",
+      "target": "id=liLista",
+      "targets": [
+        ["id=liLista", "id"],
+        ["css=#liLista", "css:finder"],
+        ["xpath=//li[@id='liLista']", "xpath:attributes"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Listado de libros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70c065d3-6e6f-4358-8d76-2940cabccf84",
+      "comment": "",
+      "command": "click",
+      "target": "id=lianadir",
+      "targets": [
+        ["id=lianadir", "id"],
+        ["css=#lianadir", "css:finder"],
+        ["xpath=//li[@id='lianadir']", "xpath:attributes"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Añadir nuevo libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "942d3fad-0fb9-4aa1-a4c1-cefc66ffc390",
+      "comment": "",
+      "command": "click",
+      "target": "id=liLista",
+      "targets": [
+        ["id=liLista", "id"],
+        ["css=#liLista", "css:finder"],
+        ["xpath=//li[@id='liLista']", "xpath:attributes"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Listado de libros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "992db04a-a7fd-48bb-ad2f-8b8acf6397d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=lianadir",
+      "targets": [
+        ["id=lianadir", "id"],
+        ["css=#lianadir", "css:finder"],
+        ["xpath=//li[@id='lianadir']", "xpath:attributes"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Añadir nuevo libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cc4b7a1-7ad2-4b70-ab3f-8c92fb4ec188",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(1) > input",
+      "targets": [
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bb4d771-ccb0-48e0-a509-be4fef6e33df",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(1) > input",
+      "targets": [
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeronimo stilton"
+    }, {
+      "id": "c452574d-6c80-4d34-9b31-28338e77cb79",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4) > input",
+      "targets": [
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdf841cc-bb99-49c0-9b2c-2327f202cc4c",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(4) > input",
+      "targets": [
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "3456"
+    }, {
+      "id": "6a991970-c105-498b-9e4b-cbf67be56479",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(7) > input",
+      "targets": [
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82ff1284-65fa-49b7-aa50-064a4f7866d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(7) > input",
+      "targets": [
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e63fd1c-efdb-4f82-ab46-f74baf71c895",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(7) > input",
+      "targets": [
+        ["css=label:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "2023-01-25"
+    }, {
+      "id": "b9bb26b8-2f0a-41f2-b11e-60839258902e",
+      "comment": "",
+      "command": "click",
+      "target": "id=textarea",
+      "targets": [
+        ["id=textarea", "id"],
+        ["css=#textarea", "css:finder"],
+        ["xpath=//input[@id='textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "902d3736-a275-4df1-88a8-6e87fceefa76",
+      "comment": "",
+      "command": "type",
+      "target": "id=textarea",
+      "targets": [
+        ["id=textarea", "id"],
+        ["css=#textarea", "css:finder"],
+        ["xpath=//input[@id='textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "Hola que tal "
+    }, {
+      "id": "fd91f543-5ab9-4ee7-9cb5-0d99c52f0985",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4)",
+      "targets": [
+        ["css=label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Ejemplar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f41adf2c-9c71-42b9-a7f6-891d6eb3778a",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4) > input",
+      "targets": [
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a655d2f-3312-4901-89a4-3fe21aca3302",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(1)",
+      "targets": [
+        ["css=label:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='divAnadir']/form/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Nombre del libro ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "730cba62-31ad-4881-a588-e9a872a3070e",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(1) > input",
+      "targets": [
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fae2dde-f426-4930-9480-866524745625",
+      "comment": "",
+      "command": "click",
+      "target": "id=right",
+      "targets": [
+        ["id=right", "id"],
+        ["css=#right", "css:finder"],
+        ["xpath=//input[@id='right']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3491af-8201-464e-aa0d-673862570c10",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(1) > input",
+      "targets": [
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ttttt"
+    }, {
+      "id": "461f15bf-a59e-45c2-8054-3d348e59bc88",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09eccd27-733c-44a3-94a6-5385fa691932",
+      "comment": "",
+      "command": "type",
+      "target": "id=textarea",
+      "targets": [
+        ["id=textarea", "id"],
+        ["css=#textarea", "css:finder"],
+        ["xpath=//input[@id='textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae4a955-7936-429b-95e4-94416c00e85b",
+      "comment": "",
+      "command": "click",
+      "target": "id=right",
+      "targets": [
+        ["id=right", "id"],
+        ["css=#right", "css:finder"],
+        ["xpath=//input[@id='right']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4f2d76-d7c0-4f83-b1cd-54447237aa30",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//div[@id='divAnadir']/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eadc1611-7283-45d8-9b6b-9cb84dfd17a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4)",
+      "targets": [
+        ["css=label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Ejemplar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3ae60e5-c0d1-4a6c-b11c-24f3d910d2db",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(4) > input",
+      "targets": [
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a05afa43-43ea-4745-bbd7-2973d157f8a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=right",
+      "targets": [
+        ["id=right", "id"],
+        ["css=#right", "css:finder"],
+        ["xpath=//input[@id='right']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b06b5ea9-ff5c-439c-b451-6ffefe374b19",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(4) > input",
+      "targets": [
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9112c39b-00fa-4793-90b1-510c51b5b12a",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(4) > input",
+      "targets": [
+        ["css=label:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "6677"
+    }, {
+      "id": "dc392173-1baf-45bf-ba8c-6fe4d7e0223f",
+      "comment": "",
+      "command": "click",
+      "target": "id=textarea",
+      "targets": [
+        ["id=textarea", "id"],
+        ["css=#textarea", "css:finder"],
+        ["xpath=//input[@id='textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a6be6cf-ecf2-4b53-90c2-76c91c396e8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=textarea",
+      "targets": [
+        ["id=textarea", "id"],
+        ["css=#textarea", "css:finder"],
+        ["xpath=//input[@id='textarea']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": "Es una historia muy interesante sobre ..."
+    }, {
+      "id": "0812fcb9-5a8d-4cfe-a668-9efadd81c2a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=right",
+      "targets": [
+        ["id=right", "id"],
+        ["css=#right", "css:finder"],
+        ["xpath=//input[@id='right']", "xpath:attributes"],
+        ["xpath=//div[@id='divAnadir']/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ae0a3a95-e100-404e-b5c6-89b49b1b40c7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7d4b25d3-d38d-4b70-9204-ed05800b0150"]
+  }],
+  "urls": ["https://smalberto03.github.io/"],
+  "plugins": []
+}
