@@ -1,25 +1,58 @@
-<html>
+<html lang="es">
     <head>
+	    <meta charset=utf-8 />
         <title>DAWLOL inicio</title>
         <meta charset=utf-8/>
 	    <meta name=viewport content="width=device-width, initial-scale=1"/>
-        <link rel=stylesheet href=css/style.css />
+        <link rel="stylesheet" href="mvc_def/ss.css">
     </head>
     <body>
         <nav>
             <ul>
-                <li>Listado de libros</li>
-                <li>Anadir nuevo libro</li>
+                <li><img src="mvc_def/imagenes/libro_logo.png" alt logo></li>
+                <li class="subrayado" lang="es" id="liLista">Listado de libros</li>
+                <li lang="es" id="lianadir">Añadir nuevo libro</li>
+                <li><img src="mvc_def/imagenes/waiaa.png"></li>
             </ul>
-        </nav>
-        
-       <div id="divInicio">Este div es de la pantalla de inicio</div> 
-       <div id="divAnadir">
-            <div>
-                <label>Nombre del libro  <input type="text"></label>
-                <button>Añadir</button>
-            </div>
+        </nav><br><br>
+       <div id="divInicio" lang="es"><br><br>
+            <table alt="tabla">
+                    <tr id="cabecera">
+                        <td colspan="5" lang="es">Listado de libros</td>
+                    </tr>
+                    <tr>
+                        <td lang="es">Nombre</td>
+                        <td lang="es">Ejemplar</td>
+                        <td lang="es">Fecha p</td>
+                        <td lang="es">Descripcion</td>
+                        <td lang="es">Premiado</td>
+                    </tr>
+                    <tr id="medio">
+                        <td lang="es">Pulgarcito</td>
+                        <td lang="es">150</td>
+                        <td lang="es">10/10/1980</td>
+                        <td lang="es">Cuenta la hisatoria de un niño y de la importancia de no confiar en desconocidos</td>
+                        <td lang="es">Sí</td>
+                    </tr>
+                    <tr>
+                        <td lang="es">El Lazarillo de Tormes</td>
+                        <td lang="es">250</td>
+                        <td lang="es">8/4/1550</td>
+                        <td lang="es">Cuenta la hisatoria de como ser un pícaro a veces te puede ayudar</td>
+                        <td lang="es">Sí</td>
+                    </tr>
+            </table>
+        </div><br><br><br><br><br>
+
+        <div id="divAnadir" alt="Contiene el formulario" lang="es">
+            <form alt="formulario para añadir libros">
+                <label lang="es">Nombre del libro  <input type="text" required="required"></label></br><br>
+                <label lang="es">Ejemplar  <input type="number" required="required"></label></br><br>
+                <label lang="es">Fecha de publicacion <input type="date" required="required"></label><br><br><!--Mejorar el espacio de la descripción-->
+                <label lang="es">Descripción  <br><input type="textarea" id="textarea" required="required"></label></br><br>
+                <input type="submit" id="right" alt="Boton" lang="es" value="Aceptar"> <button id="left" alt="Boton" lang="es">Cancelar</button>
+            </form>
        </div>
     </body>
-    <script type="module" src="js/controlador/controlador.js"></script>
+    <script type="module" src="mvc_def/app.js"></script>
 </html>

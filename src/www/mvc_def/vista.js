@@ -1,19 +1,14 @@
 /**
-	@file Contiene el modelo de la aplicación
-	@author Miguel Jaque <mjaque@fundacionloyola.es>
-	@license GPL-3.0-or-later
-**/
-
-/**
 	Implementa una vista.
-	Debería ser abstracta.
 **/
-export class Vista{
+export class Vista{ /*Solo ha y que poner atributos y medtodos que se usen en todas las vistas, aquellos metodos o stributos 
+que sean particulares de una vista hay que crearlas en la clase de esa vista*/
 	/**
 		Constructor de la clase
 	**/
-	constructor(div){
+	constructor(div, controlador){
 		this.div = div
+		this.controlador = controlador;
 	}
 	/**
 		Muestra u oculta el div principal de la vista.

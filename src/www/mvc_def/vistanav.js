@@ -1,3 +1,5 @@
+
+import {Vista} from './vista.js'
 /**
 	@file Contiene el modelo de la vista de menú de navegación de la aplicación
 	@author Alberto Salazar 
@@ -14,11 +16,15 @@ export class VistaNav extends Vista{
 		@param controlador {Controlador} Controlador de la vista.
 		@param nav {HtmlNavElement} Nav de HTML en el que se desplegará la vista.
 	**/
-    constructor(controlador, nav){
-        this.controlador = controlador
-        this.nav = nav
-        this.liInicio = this.nav.getElementsByTagName('li')[0]
-        this.liAnadir = this.nav.getElementsByTagName('li')[1]
+    constructor(nav, controlador){
+        
+        super(nav, controlador)
+		
+
+        this.liInicio = document.getElementById('liLista')
+		
+
+        this.liAnadir = document.getElementById('lianadir')
 
         this.liInicio.onclick = this.pulsarInicio.bind(this)
 		this.liAnadir.onclick = this.pulsarCRUD.bind(this)
